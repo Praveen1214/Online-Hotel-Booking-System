@@ -102,10 +102,14 @@
 
 
 					<div class="container-fluid">
-						<!-- ============================================================== -->
-						<!-- Start Page Content -->
-						<!-- ============================================================== -->
-						<!-- Row -->
+						<%
+						List<admin> adminDetails = (List<admin>) request.getSession().getAttribute("adminDetails");
+						String name = (adminDetails != null && !adminDetails.isEmpty()) ? adminDetails.get(0).getName() : "";
+						String email = (adminDetails != null && !adminDetails.isEmpty()) ? adminDetails.get(0).getEmail() : "";
+						String phone = (adminDetails != null && !adminDetails.isEmpty()) ? adminDetails.get(0).getPhone() : "";
+						String username = (adminDetails != null && !adminDetails.isEmpty()) ? adminDetails.get(0).getUserName() : "";
+						String password = (adminDetails != null && !adminDetails.isEmpty()) ? adminDetails.get(0).getPassword() : "";
+						%>
 						<div class="row">
 							<!-- Column -->
 							<div class="col-lg-4 col-xlg-3 col-md-5">
@@ -114,19 +118,10 @@
 										<center class="m-t-30">
 											<img src="assets/images/users/5.jpg" class="rounded-circle"
 												width="150" />
-											<h4 class="card-title m-t-10">Hanna Gover</h4>
+											<h4 class="card-title m-t-10"><%=name%></h4>
 											<h6 class="card-subtitle">Accoubts Manager Amix corp</h6>
 											<div class="row text-center justify-content-md-center">
-												<div class="col-4">
-													<a href="javascript:void(0)" class="link"><i
-														class="icon-people"></i> <font class="font-medium">254</font>
-													</a>
-												</div>
-												<div class="col-4">
-													<a href="javascript:void(0)" class="link"><i
-														class="icon-picture"></i> <font class="font-medium">54</font>
-													</a>
-												</div>
+												
 											</div>
 										</center>
 									</div>
@@ -135,13 +130,13 @@
 									</div>
 
 
+
 									<div class="card-body">
 										<small class="text-muted">Email address </small>
-										<h6>${adm.email}</h6>
+										<h6><%=email%></h6>
 										<small class="text-muted p-t-30 db">Phone</small>
-										<h6>${adm.phone}</h6>
-										<small class="text-muted p-t-30 db">Address</small>
-										<h6>71 Pilgrim Avenue Chevy Chase, MD 20815</h6>
+										<h6><%=phone%></h6>
+									
 										<small class="text-muted p-t-30 db">Social Profile</small> <br />
 										<button class="btn btn-circle btn-secondary">
 											<i class="fab fa-facebook-f"></i>
@@ -164,14 +159,6 @@
 
 										<form class="form-horizontal form-material mx-2">
 
-											<%
-											List<admin> adminDetails = (List<admin>) request.getSession().getAttribute("adminDetails");
-											String name = (adminDetails != null && !adminDetails.isEmpty()) ? adminDetails.get(0).getName() : "";
-											String email = (adminDetails != null && !adminDetails.isEmpty()) ? adminDetails.get(0).getEmail() : "";
-											String phone = (adminDetails != null && !adminDetails.isEmpty()) ? adminDetails.get(0).getPhone() : "";
-											String username = (adminDetails != null && !adminDetails.isEmpty()) ? adminDetails.get(0).getUserName() : "";
-											String password = (adminDetails != null && !adminDetails.isEmpty()) ? adminDetails.get(0).getPassword() : "";
-											%>
 
 
 

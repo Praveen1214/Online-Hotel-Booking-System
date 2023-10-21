@@ -1,7 +1,6 @@
 <div class="header">
 			<div class="header-left">
-				<a href="indexAdmin.jsp" class="logo"> <img
-					src="images/Logo.png" width="1000" height="1400" alt="logo">
+				<a href="indexAdmin.jsp" class="logo"> 
 					<span class="logoclass">Admin Dashboard</span>
 				</a> <a href="indexAdmin.jsp" class="logo logo-small"> <img
 					src="images/Logo.png" alt="Logo" width="30" height="30">
