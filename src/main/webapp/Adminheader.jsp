@@ -1,9 +1,11 @@
 <div class="header">
 			<div class="header-left">
+
 				<a href="indexAdmin.jsp" class="logo"> 
 					<span class="logoclass">Admin Dashboard</span>
 				</a> <a href="indexAdmin.jsp" class="logo logo-small"> <img
 					src="images/Logo.png" alt="Logo" width="30" height="30">
+
 				</a>
 			</div>
 			<a href="javascript:void(0);" id="toggle_btn"> <i
@@ -26,7 +28,9 @@
 										<div class="media">
 											<span class="avatar avatar-sm"> <img
 												class="avatar-img rounded-circle" alt="User Image"
+
 												src="images/Logo.png">
+
 											</span>
 											<div class="media-body">
 												<p class="noti-details">
@@ -43,7 +47,9 @@
 										<div class="media">
 											<span class="avatar avatar-sm"> <img
 												class="avatar-img rounded-circle" alt="User Image"
+
 												src="images/Logo.png">
+
 											</span>
 											<div class="media-body">
 												<p class="noti-details">
@@ -109,7 +115,9 @@
 					<div class="dropdown-menu">
 						<div class="user-header">
 							<div class="avatar avatar-sm">
+
 								<img src="" alt="User Image"
+
 									class="avatar-img rounded-circle">
 							</div>
 							<div class="user-text">
