@@ -182,15 +182,8 @@
 																<button type="submit" name="delete"
 																	class="btn btn-danger btn-sm">Delete</button>
 															</form>
-
-
-
-
-
-
 														</div> 
-		
-
+				
 													</td>
 												</tr>
 											</c:forEach>
@@ -202,6 +195,7 @@
 					</div>
 				</div>
 			</div>
+			</div>>
 			<div id="delete_asset" class="modal fade delete-modal" role="dialog">
 				<div class="modal-dialog modal-dialog-centered">
 					<div class="modal-content">
