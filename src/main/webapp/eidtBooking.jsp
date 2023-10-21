@@ -202,8 +202,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 
-						<form action="fupdate" method="post" class="well form-horizontal"
-							id="contact_form">
+						<form action="fupdate" method="post" class="well form-horizontal" id="contact_form">
 							<%
 							List<Booking> userEditDetails = (List<Booking>) request.getSession().getAttribute("userEditDetails");
 							String id = (userEditDetails != null && !userEditDetails.isEmpty()) ? userEditDetails.get(0).getBooking_id() : "";
@@ -227,8 +226,7 @@
 
 							<div class="row">
 								<div class="col-lg-12">
-									<form action="insert" method="post"
-										class="well form-horizontal" id="contact_form">
+									<form action="insert" method="post" class="well form-horizontal" id="contact_form">
 
 										<div class="row formtype">
 											<div class="col-md-4">
