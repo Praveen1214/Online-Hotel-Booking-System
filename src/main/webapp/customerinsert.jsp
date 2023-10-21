@@ -348,7 +348,7 @@
 								<div class="col-md-4">
 									<div class="form-group">
 										<label for="total_members" style="font-weight: bold;">Total
-											Members</label> <select class="form-control" name="total_members"
+											Members</label> <select class="form-control" name="total_numbers"
 											id="total_members" required>
 											<option value="" disabled selected>Select</option>
 											<option>1</option>
