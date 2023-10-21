@@ -40,7 +40,15 @@
 								class="menu-arrow"></span></a>
 							<ul class="submenu_class" style="display: none;">
 
-								<li><a href="adduser.jsp"> All Booking </a></li>
+								<li>	<form id="postForm"
+									action="<%=request.getContextPath()%>/update" method="post"
+									style="display: none;">
+									<input type="hidden" name="update" value="All Booking">
+								</form>
+
+								<a href="javascript:void(0);"
+									onclick="document.getElementById('postForm').submit();">All
+									Booking</a></li>
 								<li><a href="edit-booking.html"> Edit Booking </a></li>
 								<li><a href="customerinsert.jsp"> Add Booking </a></li>
 
