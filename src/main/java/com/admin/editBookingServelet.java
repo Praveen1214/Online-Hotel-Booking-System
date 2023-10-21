@@ -28,7 +28,7 @@ public class editBookingServelet extends HttpServlet {
         // Assuming that adminDbUtill.getEditDetails() returns a List of Booking objects
         // Set the data into the request scope for the JSP
         
-        System.out.println(bookingId);
+        
         
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("eidtBooking.jsp"); // Corrected the JSP filename

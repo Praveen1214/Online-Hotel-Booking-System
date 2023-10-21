@@ -180,7 +180,10 @@
 															</form>
 
 
-														</div> 
+
+
+
+														</div> </>
 													</td>
 												</tr>
 											</c:forEach>
