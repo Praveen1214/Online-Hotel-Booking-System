@@ -15,7 +15,7 @@
 	<div class="center">
 		<h1>Login</h1>
 		
-		<form action="log" method="post">
+		<form action="login" method="post">
 			<div class="txt_field">
 				<input type="text" name="username" required>
 				<label>Username</label>
