@@ -160,7 +160,7 @@
 			<div class="sidebar-inner slimscroll">
 				<div id="sidebar-menu" class="sidebar-menu">
 					<ul>
-						<li><a href="index.jsp"><i class="fas fa-tachometer-alt"></i>
+						<li><a href="indexAdmin.jsp"><i class="fas fa-tachometer-alt"></i>
 								<span>Dashboard</span></a></li>
 						<li class="list-divider"></li>
 						<li class="submenu"><a href="#"><i
