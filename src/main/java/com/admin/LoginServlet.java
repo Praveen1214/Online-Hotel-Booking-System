@@ -45,7 +45,7 @@ public class LoginServlet extends HttpServlet {
             List<admin> adminDetails = adminDbUtill.getAdminDetails(username);
 			request.getSession().setAttribute("adminDetails", adminDetails);
             
-            RequestDispatcher dis =request.getRequestDispatcher("index.jsp");
+            RequestDispatcher dis =request.getRequestDispatcher("indexAdmin.jsp");
     		dis.forward(request,response);
             
             

@@ -7,7 +7,7 @@
 
 <link rel="icon" href="images/TitleBarLogo.png" type="image/x-icon">
 
-<link rel="stylesheet" href="dist/css/login.css">
+<link rel="stylesheet" href="css/login.css">
 
 <title>Booking.lk</title>
 </head>
@@ -15,7 +15,7 @@
 	<div class="center">
 		<h1>Login</h1>
 		
-		<form action="login" method="post">
+		<form action="log" method="post">
 			<div class="txt_field">
 				<input type="text" name="username" required>
 				<label>Username</label>
