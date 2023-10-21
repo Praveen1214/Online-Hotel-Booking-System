@@ -56,9 +56,7 @@
 						<li class="submenu"><a href="#"><i class="fas fa-user"></i>
 								<span> Customers </span> <span class="menu-arrow"></span></a>
 							<ul class="submenu_class" style="display: none;">
-
-								<li><a href="#"> All customers </a></li>
-
+								<li><a href="all-customer.html"> All customers </a></li>
 								<li><a href="edit-customer.html"> Edit Customer </a></li>
 								<li><a class="" href="add-customer.html"> Add Customer
 								</a></li>
@@ -77,7 +75,8 @@
 								<li><a href="edit-staff.html"> Edit Staff </a></li>
 								<li><a href="add-staff.html"> Add Staff </a></li>
 							</ul></li>
-
+						
+							
 						<li class="submenu"><a href="#"><i class="fas fa-user"></i>
 								<span> Employees </span> <span class="menu-arrow"></span></a>
 							<ul class="submenu_class" style="display: none;">
@@ -86,13 +85,11 @@
 								<li><a href="holidays.html">Holidays </a></li>
 								<li><a href="attendance.html">Attendance </a></li>
 							</ul></li>
-
-
-
-
+						
+						
+						
 						<li><a href="settings.html"><i class="fas fa-cog"></i> <span>Settings</span></a>
 						</li>
-
 					</ul>
 				</div>
 			</div>
