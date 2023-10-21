@@ -37,16 +37,19 @@
 								class="menu-arrow"></span></a>
 							<ul class="submenu_class" style="display: none;">
 								<li><a href="adduser.jsp"> All Booking </a></li>
-								<li><a href="#"> Edit Booking </a></li>
+								<li><a href="edit-booking.html"> Edit Booking </a></li>
 								<li><a href="customerinsert.jsp"> Add Booking </a></li>
 							</ul></li>
 
 						<li class="submenu"><a href="#"><i class="fas fa-user"></i>
 								<span> Customers </span> <span class="menu-arrow"></span></a>
 							<ul class="submenu_class" style="display: none;">
+
 								<li><a href="#"> All customers </a></li>
 								<li><a href="edit-customer.html"> Edit Customer </a></li>
 								<li><a href="customerinsert.jsp"> Add Customer </a></li>
+
+
 							</ul></li>
 						<li class="submenu"><a href="#"><i class="fas fa-key"></i>
 								<span> Rooms </span> <span class="menu-arrow"></span></a>
@@ -71,35 +74,13 @@
 								<li><a href="holidays.html">Holidays </a></li>
 								<li><a href="attendance.html">Attendance </a></li>
 							</ul></li>
-						<li class="submenu"><a href="#"><i
-								class="far fa-money-bill-alt"></i> <span> Accounts </span> <span
-								class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="invoices.html">Invoices </a></li>
-								<li><a href="payments.html">Payments </a></li>
-								<li><a href="expenses.html">Expenses </a></li>
-								<li><a href="taxes.html">Taxes </a></li>
-								<li><a href="provident-fund.html">Provident Fund </a></li>
-							</ul></li>
-						<li class="submenu"><a href="#"><i class="fas fa-book"></i>
-								<span> Payroll </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="salary.html">Employee Salary </a></li>
-								<li><a href="salary-veiw.html">Payslip </a></li>
-							</ul></li>
-						<li><a href="calendar.html"><i
-								class="fas fa-calendar-alt"></i> <span>Calendar</span></a></li>
-						<li class="submenu"><a href="#"><i class="fe fe-table"></i>
-								<span> Blog </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="blog.html">Blog </a></li>
-								<li><a href="blog-details.html">Blog Veiw </a></li>
-								<li><a href="add-blog.html">Add Blog </a></li>
-								<li><a href="edit-blog.html">Edit Blog </a></li>
-							</ul></li>
 
+						
+						
+						
 						<li><a href="settings.html"><i class="fas fa-cog"></i> <span>Settings</span></a>
 						</li>
+						
 
 					</ul>
 				</div>
@@ -201,8 +182,6 @@
 																<button type="submit" name="delete"
 																	class="btn btn-danger btn-sm">Delete</button>
 															</form>
-
-
 
 
 
